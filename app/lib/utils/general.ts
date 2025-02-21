@@ -11,7 +11,7 @@ import type {
 import type {RootLoader} from '~/root';
 import {countries} from '~/data/countries';
 
-import type {I18nLocale} from './type';
+import type {I18nLocale} from '../type';
 
 type EnhancedMenuItemProps = {
   to: string;
