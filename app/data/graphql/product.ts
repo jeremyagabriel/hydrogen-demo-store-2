@@ -39,6 +39,7 @@ export const PRODUCT_VARIANT_FRAGMENT = `#graphql
 export const PRODUCT_FRAGMENT = `#graphql
   fragment Product on Product {
     id
+    title
     vendor
     handle
     descriptionHtml
